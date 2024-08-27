@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { EasyCraftLayoutComponent } from './easy-craft-layout.component';
+import { EcLayoutComponent } from './ec-layout.component';
 
 describe('EasyCraftLayoutComponent', () => {
-  let component: EasyCraftLayoutComponent;
-  let fixture: ComponentFixture<EasyCraftLayoutComponent>;
+  let component: EcLayoutComponent;
+  let fixture: ComponentFixture<EcLayoutComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [EasyCraftLayoutComponent]
+      imports: [EcLayoutComponent]
     })
     .compileComponents();
-    
-    fixture = TestBed.createComponent(EasyCraftLayoutComponent);
+
+    fixture = TestBed.createComponent(EcLayoutComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

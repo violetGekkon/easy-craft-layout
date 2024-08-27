@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { EasyCraftLayoutService } from './easy-craft-layout.service';
+import { EcLayoutService } from './ec-layout.service';
 
 describe('EasyCraftLayoutService', () => {
-  let service: EasyCraftLayoutService;
+  let service: EcLayoutService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(EasyCraftLayoutService);
+    service = TestBed.inject(EcLayoutService);
   });
 
   it('should be created', () => {

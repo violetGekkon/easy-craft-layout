@@ -7,7 +7,7 @@
       "projectType": "library",
       "root": "projects/easy-craft-layout",
       "sourceRoot": "projects/easy-craft-layout/src",
-      "prefix": "lib",
+      "prefix": "ec",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
