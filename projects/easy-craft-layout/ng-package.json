@@ -3,5 +3,12 @@
   "dest": "../../dist/easy-craft-layout",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "allowedNonPeerDependencies": [
+    "@angular/common",
+    "@angular/core",
+    "@angular/material",
+    "@angular/cdk",
+    "@angular/animations"
+  ]
 }
