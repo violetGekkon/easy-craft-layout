@@ -1,8 +1,7 @@
 {
   "name": "@easy-craft/layout",
-  "version": "1.0.0",
-  "peerDependencies": {
-  },
+  "version": "1.0.1",
+  "peerDependencies": {},
   "dependencies": {
     "@angular/common": "^17.3.0",
     "@angular/core": "^17.3.0",
@@ -11,5 +10,20 @@
     "@angular/material": "^17.3.10",
     "tslib": "^2.3.0"
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "description": "The library provides a modular and highly customizable layout system for Angular applications using Angular Material components.",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/violetGekkon/easy-craft-layout.git"
+  },
+  "keywords": [
+    "layout"
+  ],
+  "author": "sia",
+  "bugs": {
+    "url": "https://github.com/violetGekkon/easy-craft-layout/issues"
+  },
+  "homepage": "https://github.com/violetGekkon/easy-craft-layout#readme"
 }
